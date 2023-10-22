@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+li{
+  list-style: none;
+}
+.navbar-brand{
+    color:green;
+    font-family: 'Marcellus', serif;
+    /* font-family: 700; */
+}
+.navbar-brand:hover{
+  transform: scale(1.1);
+  color:rgb(9, 187, 236);
+  transition: ease-in-out 0.3s;
+}
+.navbar-nav{
+  justify-content: space-evenly;
+  width: 40%;
+}
+.profile-button{
+  justify-self: flex-end;
+}
+.nav-item:hover{
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
+}
